@@ -1,6 +1,27 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+var hourDisplay = [ 
+  "9AM",
+  "10AM",
+  "11AM",
+  "12PM",
+  "1PM",
+  "2PM",
+  "3PM",
+  "4PM",
+  "5PM",
+];
+
+var currentHour = dayjs().format("h");
+var amPm = dayjs().format("a");
+
+var savedComment = JSON.parse(localstorage.getItem("savedComment")) || "";
+
+var inputEl;
+
+var savedCalendarComment = JSON.parse(localStorage.getItem("savedComment"));
+
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
