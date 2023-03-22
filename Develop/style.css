@@ -1,8 +1,10 @@
+/* Sets the body elements font-family and font-size */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
+/* sets the properties for the textarea */
 textarea {
   background: transparent;
   border: none;
@@ -12,39 +14,46 @@ textarea {
   padding: 10px;
 }
 
+/* sets the description properties */
 .description {
   white-space: pre-wrap;
 }
-
+/*sets the time-block properties */
 .time-block {
   border-radius: 15px;
 }
 
+/* sets the rows properties */
 .row {
   border-top: 1px solid white;
 }
 
+/*sets the hour properties */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* sets the colour for past */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
+/*sets the colour for present */
 .present {
   background-color: #ff6961;
   color: white;
 }
 
+/*sets the colour for future */
 .future {
   background-color: #77dd77;
   color: white;
 }
 
+/* sets the properties for the save button */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -53,6 +62,7 @@ textarea {
   color: white;
 }
 
+/* sets what happens when you hover over the save button */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
