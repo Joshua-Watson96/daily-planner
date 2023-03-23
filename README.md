@@ -1,4 +1,4 @@
-A daily planner: showing different colours for past(grey), present(red) and future(green) in relation to what the time is.
+A Work day scheduler (daily planner): showing different colours for past(grey), present(red) and future(green) in relation to what the time is.
 
 the daily planner when you first open the deployed site
 ![alt](./Assets/images/landingpage.png)
